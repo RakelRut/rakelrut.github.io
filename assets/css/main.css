@@ -804,6 +804,41 @@ section,
 
 
 /*--------------------------------------------------------------
+# Process Section 
+--------------------------------------------------------------*/
+
+.process-long-text {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.process-long-text p {
+  margin-bottom: 22px;
+}
+
+/*--------------------------------------------------------------
+# Projects Section
+--------------------------------------------------------------*/
+
+.project-subsection {
+  margin-bottom: 50px;
+}
+
+.project-subsection h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.project-subsection p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+/*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-wrap {
@@ -905,86 +940,11 @@ section,
 
 }
 
-
-/*--------------------------------------------------------------
-# Process Section - Light outline boxes
---------------------------------------------------------------*/
-
-.process .icon-box {
-  background: color-mix(in srgb, var(--accent-color), white 97%); /* very light blue fill */
-  border: 2px solid var(--accent-color); /* blue outline */
-  border-radius: 12px;
-  padding: 30px 20px;
-  height: 100%;
-  transition: all 0.3s ease;
-}
-
-.process .icon-box:hover {
-  background: color-mix(in srgb, var(--accent-color), white 85%); /* slightly darker on hover */
-  transform: translateY(-6px);
-  box-shadow: 0 10px 25px color-mix(in srgb, var(--accent-color), transparent 60%);
-}
-
-/* Icon circle - keep accent color */
-.process .icon-box .icon {
-  width: 60px;
-  height: 60px;
-  background: var(--accent-color);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-/* Icon color */
-.process .icon-box .icon i {
-  color: var(--contrast-color);
-  font-size: 28px;
-}
-
-/* Heading color */
-.process .icon-box h4 {
-  color: var(--accent-color);
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-/* Text color */
-.process .icon-box p {
-  color: var(--default-color);
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-
-
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
-}
-
-
-/*--------------------------------------------------------------
-# Projects Section
---------------------------------------------------------------*/
-
-.project-subsection {
-  margin-bottom: 50px;
-}
-
-.project-subsection h3 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.project-subsection p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
 /*--------------------------------------------------------------
