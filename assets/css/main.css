@@ -957,10 +957,6 @@ section,
   font-size: 15px;
   line-height: 1.6;
 
-.process {
-scroll-margin-top: 80px;
-}
-
 
 /*--------------------------------------------------------------
 # Starter Section Section
@@ -976,7 +972,6 @@ scroll-margin-top: 80px;
 
 .project-subsection {
   margin-bottom: 50px;
-  scroll-margin-top: 80px; /* fixes header overlap */
 }
 
 .project-subsection h3 {
@@ -1010,5 +1005,30 @@ scroll-margin-top: 80px;
 
 .resume .resume-item {
   margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+# Scroll Offset Fix for Fixed Header
+--------------------------------------------------------------*/
+
+/* Desktop header height ~120px offset */
+@media (min-width: 1200px) {
+  .process,
+  .project-subsection {
+    scroll-margin-top: 120px; /* adjust if header height changes */
+  }
+}
+
+/* Mobile header toggle button ~60px offset */
+@media (max-width: 1199px) {
+  .process,
+  .project-subsection {
+    scroll-margin-top: 60px; /* smaller offset for mobile */
+  }
+}
+
+/* Optional: apply globally to all sections */
+section {
+  scroll-margin-top: 120px;
 }
 
