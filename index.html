@@ -413,75 +413,106 @@
       </div>
     
     </section><!-- /Resume Section -->
-    
 
-    <!-- Services Section -->
-    <section id="services" class="services section light-background">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
-
+    <section id="process" class="process section light background">
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div><!-- End Service Item -->
-
+    
+        <div class="section-title">
+          <h2>Development Process</h2>
+          <p>
+            This section explains how I built this website, which tools I used,
+            and the technical problems I encountered during development.
+          </p>
         </div>
-
+    
+        <div class="content">
+    
+          <h4>1. Choosing and Setting Up the Template</h4>
+          <p>
+            I built this website using the <strong>iPortfolio Bootstrap 5 template</strong>
+            from GitHub. I chose this template because it provided a responsive layout
+            and a clear structure that I could customize for my own portfolio.
+          </p>
+          <p>
+            After downloading the template, I uploaded the project to GitHub Pages
+            so the website could be hosted online.
+          </p>
+    
+          <h4>2. File Structure and Asset Upload Issues</h4>
+          <p>
+            One of the first technical problems I encountered was uploading the
+            <code>assets</code> folder to GitHub. The folder was too large to upload
+            all at once, which caused upload failures.
+          </p>
+          <p>
+            To solve this, I created an empty folder named <code>assets</code> in the
+            repository and then manually uploaded the required subfolders and files.
+            This ensured that all styles, images, and scripts loaded correctly.
+          </p>
+    
+          <h4>3. Content Customization</h4>
+          <p>
+            I replaced all placeholder text from the template with my own content.
+            This included editing the <strong>About</strong> and <strong>Resume</strong>
+            sections to reflect my personal information and experience.
+          </p>
+          <p>
+            All template images were replaced with my own selected images to make the
+            website more personal and original.
+          </p>
+    
+          <h4>4. Project Section and Navigation Fixes</h4>
+          <p>
+            The navigation menu included a link to a <strong>Project</strong> section
+            that did not exist in the original template. When users clicked the link,
+            the website redirected them back to the homepage.
+          </p>
+          <p>
+            I solved this problem by creating a new section with the ID
+            <code>project</code> in the HTML file. After adding this section, the
+            template styling no longer applied correctly.
+          </p>
+          <p>
+            To fix the layout issues, I edited <code>index.html</code> and added
+            additional CSS rules in <code>main.css</code> to restore the correct
+            spacing, typography, and alignment.
+          </p>
+          <p>
+            I also modified an existing template section called <strong>“downdeep”</strong>
+            and restructured it into multiple subsections:
+            Project, Project 1, Project 2, Project 3, and Final Project.
+          </p>
+    
+          <h4>5. Contact Form Implementation</h4>
+          <p>
+            I decided to keep the Contact section at the bottom of the page.
+            Initially, the template relied on a PHP file to send emails directly.
+            However, GitHub Pages does not support server-side PHP.
+          </p>
+          <p>
+            To resolve this limitation, I integrated <strong>Formspree</strong>,
+            which allows form submissions without backend code. Using Formspree,
+            contact messages are successfully submitted with the sender’s name,
+            email, subject, and message.
+          </p>
+    
+          <h4>6. Design Assets and Final Adjustments</h4>
+          <p>
+            To improve the visual identity of the website, I created a logo,
+            app icon, and favicon using Canva.
+          </p>
+          <p>
+            I removed unused sections such as <strong>Portfolio</strong> and
+            <strong>Testimonials</strong> to simplify the layout and focus on
+            the most relevant content.
+          </p>
+    
+        </div>
+    
       </div>
+    </section>
 
-    </section><!-- /Services Section -->
 
     <section id="projects" class="project section">
       <div class="container">
