@@ -827,8 +827,9 @@ section,
 }
 
 .goal h3 {
-  font-size: 1.4rem;
+  font-size: 20px;
   margin-bottom: 10px;
+  font-weight: 600;
   color: inherit; /* match section text color */
 }
 
