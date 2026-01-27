@@ -792,9 +792,6 @@ section,
 # Goal Section
 --------------------------------------------------------------*/
 
-#goals {
-  /* rely on global .section padding */
-}
 
 #goals .section-title {
   text-align: left; /* matches Projects */
