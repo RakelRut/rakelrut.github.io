@@ -1000,17 +1000,5 @@ section,
 # Scroll Offset Fix for Fixed Header
 --------------------------------------------------------------*/
 
-/* Desktop */
-@media (min-width: 1200px) {
-  section {
-    scroll-margin-top: 69px;
-  }
-}
 
-/* Mobile */
-@media (max-width: 1199px) {
-  section {
-    scroll-margin-top: 60px;
-  }
-}
 
